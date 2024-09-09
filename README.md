@@ -1,5 +1,9 @@
 # Sentiment-Analysis-Trading-Bot
-This project implements a sentiment-driven trading algorithm that leverages news sentiment analysis to generate trading signals. The trading strategy uses Hugging Face's FinBERT model, which is fine-tuned for financial text classification, to analyze news sentiment for the SPY (S&P 500 ETF) over the past 3 days. Based on the sentiment (positive or negative), the bot takes long or short positions with a highly leveraged approach. The strategy was backtested over 4 years, achieving a 234% return, with most of the profit generated from short positions. <br><br>
+This project implements a sentiment-driven trading algorithm that leverages news sentiment analysis to generate trading signals. The trading strategy uses Hugging Face's FinBERT model, which is fine-tuned for financial text classification, to analyze news sentiment for the SPY (S&P 500 ETF) over the past 3 days. Based on the sentiment (positive or negative), the bot takes long or short positions with a highly leveraged approach. The strategy was backtested over 4 years, achieving a 234% return, with most of the profit generated from short positions. <br><br><br>
+
+![image](https://github.com/user-attachments/assets/8df3bc9c-3747-47f1-b9a3-2f81e70be144)
+
+
 
 ### Key Features
 Sentiment Analysis: Uses FinBERT to classify news headlines as positive, negative, or neutral.<br>
